@@ -1,0 +1,1 @@
+enum Cpu {intel, ryzen}

@@ -1,0 +1,1 @@
+enum Cms { wordpress, tilda }
