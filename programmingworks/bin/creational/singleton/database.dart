@@ -14,7 +14,6 @@ class Database {
 
 void main () {
   final connection = Database();
-  final connection2 = Database();
 
   connection.insert('"avatar": { photo": "url", "name": "avatar"}');
 
