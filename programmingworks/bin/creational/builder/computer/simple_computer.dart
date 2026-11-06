@@ -15,5 +15,4 @@ class SimpleComputer extends ComputerBuilder{
     computer!.ram = 8;
     return this;
   }
-
 }

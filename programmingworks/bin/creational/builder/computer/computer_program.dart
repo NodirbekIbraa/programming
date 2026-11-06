@@ -3,7 +3,7 @@ import 'simple_computer.dart';
 import 'gaming_computer.dart';
 
 void main(){
-  final director = ComputerDirector();
+  final director = CreaterComputer();
   director.setBuilder(GamingComputer());
   print(director.buildComputer());
 

@@ -3,7 +3,7 @@ import 'computer.dart';
 abstract class ComputerBuilder{
   Computer? computer;
 
-  ComputerBuilder createComputer() {
+  ComputerBuilder createrComputer() {
     computer = Computer();
     return this;
   }

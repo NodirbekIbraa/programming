@@ -1,7 +1,7 @@
 import 'computer.dart';
 import 'computer_builder.dart';
 
-class ComputerDirector {
+class CreaterComputer {
   ComputerBuilder? builder;
 
   void setBuilder(ComputerBuilder builder) {
@@ -9,7 +9,7 @@ class ComputerDirector {
   }
 
   Computer buildComputer(){
-    builder!.createComputer().addCpu().addRam();
+    builder!.createrComputer().addCpu().addRam();
     return builder!.getComputer()!;
   }
 }
